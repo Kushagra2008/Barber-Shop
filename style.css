@@ -500,6 +500,9 @@ hr  {
 }
 
 @media screen and (max-width: 770px)    {
+    .testimonial-col    {
+        animation: bg 2s alternate infinite;
+    }
     .testimonial-row    {
         width: 80%;
         margin: auto;
