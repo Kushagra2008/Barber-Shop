@@ -302,11 +302,9 @@
     const song = document.getElementById("song")
     song.volume = 0.1;
     const cursor = document.querySelector(".cursor");
-    // const expand = document.querySelector(".expand");
     const h4 = document.querySelector("#h4banner");
     const circle = document.querySelector(".circle");
-    // console.log($(window).width())
-    // if ($(window).width() >= 1200) {
+    
       let isMobile = function() {
         var check = false;
         (function(a){
@@ -325,7 +323,6 @@
         return check;
       }
 
-      console.log(isMobile() + " " + isTab())
       if (isMobile() || isTab()) {
         cursor.style.display = "none";
         h4.style.display = "none";
@@ -341,7 +338,6 @@
           cursor.setAttribute('style', 'top: 77.4%;' + "left: " +  '49.4%; z-index: 2;');
         }
       });
-    // }
 
     document.addEventListener("click", e => {
       console.log("cl: " + window.navigator.userAgent)
