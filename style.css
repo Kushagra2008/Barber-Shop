@@ -588,11 +588,13 @@ hr  {
 }
 
 .footer-img {
+    width: 30%;
+    height: 40%;
     max-width: 370px;
     opacity: 0.1;
     position: absolute;
     left: 38%;
-    top: 26%;
+    top: 29%;
     transform: translate(-50%, -50%);
     transition: 2s;
     animation: bg 2s alternate infinite;
