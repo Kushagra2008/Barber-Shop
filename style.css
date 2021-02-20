@@ -8,9 +8,6 @@
     font-family: 'Truculenta', cursive;
     scroll-behavior: smooth;
     transition: all 1s ease;
-    /* perspective: 1000px; */
-    /* perspective: 100px; */
-    /* cursor: none !important; */
 }
 
 *::-webkit-scrollbar    {
@@ -154,9 +151,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    /* background: rgba(0, 0, 0, 0.1); */
     background: white;
-    /* visibility: hidden; */
     opacity: 1;
     overflow: hidden;
 }
@@ -189,9 +184,6 @@ nav ul li   {
     transition: 0.5s;
 }
 
-/* nav ul li:hover {
-    text-decoration:underline #fff;
-} */
 
 nav ul li a {
     text-decoration: none;
@@ -382,8 +374,6 @@ nav ul li button   {
     flex-wrap: 50%;
     margin: auto;
     transform-style: preserve-3d;
-    /* transform: ; */
-    /* transform: rotate3d(20deg); */
 }
 
 
@@ -549,7 +539,6 @@ hr  {
     margin-bottom: 120px;
     border-radius: 5px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
-    /* box-shadow: 0 10px 20px 3px #00968814; */
     cursor: pointer;
 }
 
@@ -581,12 +570,10 @@ hr  {
 
 @keyframes bg   {
     0%    {
-        /* transform: translateZ(20deg); */
         transform: scale(1, 1);
     }
     
     100%    {
-        /* transform: translateZ(20deg); */
         transform: scale(1.1, 1.1);
     }
 }    
